@@ -1,0 +1,16 @@
+1. Join Jitsi Room => wait until video appears
+2. Leave Jitsi Room => video should dissappear
+3. Repeat 1 & 2 about 10 times
+
+=> this message should appear
+MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 xmpp.speaker_stats_received listeners added. Use emitter.setMaxListeners() to increase limit
+    at l (http://127.0.0.1:5500/JitsiRemoveHandler/scripts/lib-jitsi-meet.min.js:2:128434)
+    at a.addListener (http://127.0.0.1:5500/JitsiRemoveHandler/scripts/lib-jitsi-meet.min.js:2:131107)
+    at I.addListener (http://127.0.0.1:5500/JitsiRemoveHandler/scripts/lib-jitsi-meet.min.js:2:136063)
+    at new c (http://127.0.0.1:5500/JitsiRemoveHandler/scripts/lib-jitsi-meet.min.js:26:127040)
+    at new oe (http://127.0.0.1:5500/JitsiRemoveHandler/scripts/lib-jitsi-meet.min.js:15:34388)
+    at c.initJitsiConference (http://127.0.0.1:5500/JitsiRemoveHandler/scripts/lib-jitsi-meet.min.js:15:31430)
+    at joinJitsiRoom (http://127.0.0.1:5500/JitsiRemoveHandler/scripts/jitsi.js:34:25)
+    at HTMLButtonElement.<anonymous> (http://127.0.0.1:5500/JitsiRemoveHandler/index.html:57:24)
+    at HTMLButtonElement.dispatch (https://code.jquery.com/jquery-3.5.1.min.js:2:43090)
+    at HTMLButtonElement.v.handle (https://code.jquery.com/jquery-3.5.1.min.js:2:41074)
